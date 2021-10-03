@@ -13,9 +13,9 @@ q1=1; q1=1; q2=4;q2=4;
 		len2=Math.sqrt((p2-p1)*(p2-p1) + (q2-q1)*(q2-q1));
 		System.out.println("length of line one is = "+len2);
 
-		if(len1 ==len2)
+		if(len1.equals(len2))
 		{
-			System.out.println("length is edf");
+			System.out.println("length is equal");
                 }
 	}
 }
